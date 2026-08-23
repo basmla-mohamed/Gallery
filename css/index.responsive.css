@@ -1,0 +1,77 @@
+/*350*/
+@media (max-width: 1300px) {
+    .popup .box{
+    width: 80%;
+    max-width: 300px;
+}
+.popup .box li,
+.popup .box i{
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+}
+.popup .box .indicators li {
+    width: 20px;
+}
+.popup .box .indicators{
+    column-gap: 4px;
+}
+
+}
+/*450*/
+@media (min-width: 371px) and (max-width: 1300px) {
+.popup .box li,
+.popup .box i{
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+}
+.popup .box .indicators li {
+    width: 25px;
+}
+.popup .box .indicators{
+    column-gap: 8px;
+}
+}
+
+/*650*/
+@media (min-width: 577px) and (max-width: 1300px) {
+    .popup .box{
+    width: 50%;
+    max-width: 400px;
+}
+.popup .box li,
+.popup .box i{
+    width: 25px;
+    height: 25px;
+    font-size: 12px;
+}
+.popup .box .indicators li {
+    width: 25px;
+}
+.popup .box .indicators{
+    column-gap: 8px;
+}
+}
+
+/*850*/
+@media (min-width: 769px) and (max-width: 1300px) {
+.popup .box li,
+.popup .box i{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+}
+.popup .box .indicators li {
+    width: 30px;
+}
+.popup .box .indicators{
+    column-gap: 10px;
+}
+}
+
+/*1050*/
+@media (min-width: 992px) and (max-width: 1300px) {}
+
+/*large screens*/
+@media (min-width: 1181px) and (max-width: 1300px) {}
